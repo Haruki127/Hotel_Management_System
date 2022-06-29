@@ -10,7 +10,7 @@ import javax.swing.JLabel;
 import javax.swing.SwingUtilities;
 
 
-public final class ff {
+public final class test {
     private static BufferedImage bi;
 
     public static void main(String[] args){
@@ -29,7 +29,7 @@ public final class ff {
     }
 
     private static void loadImage() throws IOException{
-        bi = ImageIO.read(ff.class.getResource("../resources/login.png"));
+        bi = ImageIO.read(test.class.getResource("../resources/login.png"));
     }
 
     private static void createAndShowGUI(){
